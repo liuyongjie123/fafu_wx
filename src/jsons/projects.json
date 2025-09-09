@@ -1,0 +1,81 @@
+[
+    {
+        "id": "project1",
+        "title": "国家自然科学基金青年科学基金项目",
+        "grantNumber": "61705037",
+        "period": "2018/01-2020/12",
+        "funding": "25万元",
+        "role": "主持",
+        "tags": [
+            {"text": "国家级", "color": "tag-red"},
+            {"text": "已完成", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "project2",
+        "title": "福建省自然科学基金",
+        "subtitle": "青年项目",
+        "grantNumber": "2017J05041",
+        "period": "2017/04-2020/04",
+        "funding": "4万元",
+        "role": "主持",
+        "tags": [
+            {"text": "省级", "color": "tag-blue"},
+            {"text": "已完成", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "project3",
+        "title": "福建省自然科学基金",
+        "subtitle": "面上项目",
+        "grantNumber": "2021J01131",
+        "period": "2021/08–2023/08",
+        "funding": "10万元",
+        "role": "主持",
+        "tags": [
+            {"text": "省级", "color": "tag-blue"},
+            {"text": "已完成", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "project4",
+        "title": "中国博士后基金项目",
+        "funding": "8万元",
+        "role": "主持",
+        "tags": [
+            {"text": "国家级", "color": "tag-red"},
+            {"text": "已完成", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "project5",
+        "title": "福建农林大学杰出青年科研人才计划项目",
+        "subtitle": "自然科学类",
+        "funding": "30万元",
+        "role": "主持",
+        "tags": [
+            {"text": "校级", "color": "tag-purple"},
+            {"text": "已完成", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "project6",
+        "title": "2023年福建省农业厅农业攻关项目子课题",
+        "funding": "70.8万元",
+        "role": "主持",
+        "tags": [
+            {"text": "省级", "color": "tag-blue"},
+            {"text": "已完成", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "project7",
+        "title": "2024年福建省农业厅农业攻关项目子课题",
+        "funding": "80.5万元",
+        "role": "主持",
+        "tags": [
+            {"text": "省级", "color": "tag-blue"},
+            {"text": "进行中", "color": "tag-yellow"}
+        ]
+    }
+]

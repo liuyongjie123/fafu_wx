@@ -1,0 +1,366 @@
+[
+    {
+        "id": "paper1",
+        "title": "Wearable sensor based on covalent organic framework humidity film for long-term monitoring of tomato physiological under abiotic stress",
+        "authors": "Liang Huang, Xinyang He, Jimin Hu, Caixun Qin, Chenxin Huang, Yu Tang, Fenglin Zhong, Xiangzeng Kong*, Xuan Wei*",
+        "journal": "ACS Nano, 2024",
+        "abstract": "Global agricultural productivity is affected by plant stresses every year; as a consequence, monitoring and preventing plant stresses is a significant measure to protect the agro-ecological environment. Similar to the adoption of wearable devices to appraise human physiological information and disease diagnosis, however, in situ nondestructive monitoring of complex and weak physiological information in plants is an enormous challenge for the development of wearable sensors. Herein, to accurately analyze the changes of tomato internal information under multiple abiotic stresses in real-time, we introduce the covalent organic framework (COF) film synthesized by self-assembly layer by layer through the oil/water interface as a sensitive material to develop a multifilm-integrated wearable sensor capable of monitoring leaf surface humidity and leaf temperature. The flexible substrate can stretch with leaf growth to ensure the accuracy of long-term monitoring. Benefiting from the performance characteristics, such as ultrahigh sensitivity (S) of 0.8399 nA/%RH and an extremely low-resolution (ΔRH) value of 0.0564%, which could amplify the conducted signal, and the long-term stability of COFMOP-TAPB, the transpiration information on tomatoes under 10 abiotic stresses can be monitored continuously and with high precision over a long period by applying the COF-based sensor on the lower surface of the leaf at the upper end of the stem morphology. Finally, we employ metaheuristic optimization algorithms to predict the time series of the internal physiological change trend of tomatoes in the future so that farmers can take corresponding preventive measures in time to ensure the healthy growth of tomatoes.",
+        "link": "https://dx.doi.org/10.1021/acsnano.4c09916",
+        "image": "./src/imgs/papers/ACS_HuangLiang.png",
+        "tags": [
+            {"text": "plant wearable sensor", "color": "tag-pink"},
+            {"text": "plant physiological information", "color": "tag-blue"},
+            {"text": "covalent organic framework", "color": "tag-green"},
+            {"text": "nonbiological stress", "color": "tag-purple"},
+            {"text": "metaheuristic optimization algorithm", "color": "tag-blue-dark"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper2",
+        "title": "Classification method for folded flue-cured tobacco based on hyperspectral imaging and conventional neural networks",
+        "authors": "Xuan Wei; Chanjuan Deng;Wei Fang; Chuangyuan Xie; Shiyang Liu; Mingrui Lu; Fang Wang; Yuzhu Wang*",
+        "journal": "Industrial Crops and Products, 2024",
+        "abstract": "The efficient classification of flue-cured tobacco by automated machines continues to pose a significant challenge. Producers are grappling with escalating labor shortages in the grading of flue-cured tobacco due to the demanding working conditions and a robust workforce. This paper proposes an innovative approach to ascertain the grades of folded flue-cured tobacco using hyperspectral imaging (HSI) technology in conjunction with a one-dimensional convolutional neural network (1D-CNN) model. Initially, a comprehensive dataset comprising 405 hyperspectral images capturing ten grades of folded flue-cured tobacco was meticulously collected, illustrating various degrees of folding. Subsequently, diverse preprocessing techniques were applied to the spectra obtained from the regions of interest. Moreover, advanced algorithms, including the least angle regression algorithm (LAR), successive project algorithm (SPA), and competitive adaptive reweighted sampling algorithm (CARS), were employed to select the most pertinent feature bands. Finally, based on the feature wavelengths, a 1D-CNN grading model was established and compared with random forest (RF), artificial neural network (ANN), backpropagation neural network (BPNN), and residual neural network (ResNet) classification models. Comparative analysis of these models reveals that the LAR-CNN algorithm outperforms others, achieving a classification accuracy of 96.3% and a minimum loss function value of 0.1. Notably, the LAR algorithm implemented in this study successfully reduces the number of bands used in the model from 360 to 20. In summary, this fusion of HSI and 1D-CNN not only conveys a distinct advantage in discerning leaf folds and intricate morphological traits but also heralds an innovative era for the automation of flue-cured tobacco classification, offering unprecedented precision and efficiency. This methodology paves the way for remarkable strides in augmenting the efficacy and precision of automated flue-cured tobacco grading, mitigate subjective biases in manual grading methods, and offer essential technical support for the development of automatic grading devices for folded flue-cured tobacco leaves. Hence, continued research and development initiatives stand as indispensable to realize the full potential of such innovative technologies.",
+        "link": "https://doi.org/10.1016/j.indcrop.2024.118279",
+        "image": "./src/imgs/papers/chanjuan.png",
+        "tags": [
+            {"text": "Hyperspectral Imagin", "color": "tag-pink"},
+            {"text": "Tobacco classificatio", "color": "tag-blue"},
+            {"text": "Convolutional Neural Network", "color": "tag-green"},
+            {"text": "Feature extractions", "color": "tag-purple"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper3",
+        "title": "Multi-strategy active learning for power quality disturbance identification",
+        "authors": "Haoyi Zhang; Wei Wu; Kaicheng Li; Xinyue Zheng; Xuebin Xu; Xuan Wei∗",
+        "journal": "Applied Soft Computing, 2024",
+        "abstract": "As clean energy facilities are increasingly integrated into power distribution networks, the incidence of multiple power quality disturbances (MPQDs) is on the rise. Currently, most MPQDs classification models rely on supervised learning, which demands a substantial amount of labeled data. However, obtaining labeled MPQDs data from the real world is often a time-consuming and labor-intensive process, requiring annotation by experienced engineers, particularly for events involving MPQDs. To tackle this challenge, we introduce an innovative active learning (AL) approach known as Adaptive Weighting Multi-Strategy AL (AWMSAL) for MPQDs classification. In our framework, AWMSAL simultaneously considers multiple strategies using rank aggregation to select MPQDs data that is both full-information and highly representative for labeling. In addition, our method employs a unique weight calculation function to dynamically adjust weights based on the differences in data values observed with various strategies during the AL process. To enhance the classifier performance, we incorporate the Laplacian manifold regularizer into the Extreme Learning Machine in both supervised and unsupervised settings. We compared the performance of the AWMSAL method against several state-of-the-art active learning algorithms using synthetic and hardware-generated data sets. The results demonstrated that AWMSAL achieved recognition rates exceeding 99% in a shorter number of iterations. When the same termination condition was met, AWMSAL outperformed other active learning algorithms by 2.45% to 18.33% in terms of accuracy.",
+        "link": "https://doi.org/10.1016/j.asoc.2024.111326",
+        "image": "./src/imgs/papers/HaoYi.png",
+        "tags": [
+            {"text": "Multi-strategy active learning", "color": "tag-pink"},
+            {"text": "Extreme learning machine", "color": "tag-blue"},
+            {"text": "Power quality disturbance", "color": "tag-green"},
+            {"text": "Rank aggregation", "color": "tag-purple"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper4",
+        "title": "Microscopic hyperspectral imaging and an improved detection model based detection of Mycogone perniciosa chlamydospore in soil",
+        "authors": "Xuan Wei ; Yongjie Liu; Qiming Song; Jinping Zou; Zhiqiang Wen; Jiayu Li ; Dengfei Jie*",
+        "journal": "European Journal of Agronomy, 2024",
+        "abstract": "The Mycogone perniciosa disease of Agaricus bisporus is highly contagious, with insignificant early symptoms and a long infestation period. Currently, there is a lack of a convenient and rapid means to detect the disease for early control. By using the transmission route of the disease, this paper focuses on M. perniciosa chlamydospore detection in contaminated soil. Microscopic hyperspectral images of M. perniciosa chlamydospore in contaminated soil were obtained to establish a detection model. Given a small target and a complex background, we proposed an improved spore detection model based on a faster regional convolutional neural network (Faster R-CNN). Furthermore, we combined the residual network Resnet50 and feature pyramid network (FPN) to extract thick spore target features at multiple scales. Meanwhile, we optimized the region proposal network (RPN) region proposal generation by adding two small scales to improve the performance of the detection model. The first three principal components (with 95% or more information) and RGB images were selected as model inputs, respectively, and the final average precision (AP) was 94.68% and 92.35%, respectively. This PC-based model also was compared to the VGG16 and Resnet50-based feature extraction networks of Faster R-CNN and Darknet53-based feature extraction network of the YOLOv3 model, and the AP was found to improve by 5.41%, 4.78%, and 6.34%, respectively. The results showed that micro-hyperspectral imaging combined with deep learning methods could accurately detect the chlamydospore in the soil, providing new methods and ideas for the early prevention and detection of M. perniciosa disease of A. bisporus.",
+        "link": "https://doi.org/10.1016/j.eja.2023.127007",
+        "image": "./src/imgs/papers/yongjie.png",
+        "tags": [
+            {"text": "Microscopic hyperspectral imaging", "color": "tag-pink"},
+            {"text": "Deep learning", "color": "tag-blue"},
+            {"text": "Faster R-CNN", "color": "tag-green"},
+            {"text": "Small target detection", "color": "tag-purple"},
+            {"text": "Agaricus bisporus", "color": "tag-blue-dark"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper5",
+        "title": "Cellulose paper-based humidity power generator with high open circuit voltage based on zinc-air battery structure",
+        "authors": "Liang Huang; Yu Tang;Wei Liu; Qichang Hu; Xuan Wei*",
+        "journal": "Carbohydrate Polymers, 2024",
+        "abstract": "The sensing mechanisms of common humidity sensors related to conductive active materials, which can be simply attributed to the variations in resistivity due to the separation of conductive materials and variations in polymer permittivity, are generally plagued by drawbacks such as cumbersome fabrication processes, high cost and low performance. Herein, we prepared Zn/Cellulose filter paper (CFP)/Nanoscale carbon ink (NCI)/Cu structure humidity power generators (ZHGs) based on the power generation principle of typical zinc-air batteries, using active metals with strong conductivity as electrodes, and the redox reactions that took place in the zinc-air battery can convert the chemical energy in the electrode into a stable electrical energy. The ZHG fabricated in this work can reach an extremely high open circuit voltage (Voc) of 0.803 V at 97 % RH and possesses an excellent power density of 312.24 μW/cm2, which has a good linear relationship (R2 = 0.9669) over a wide humidity range (20–97 % RH). In addition, 10 ZHGs in series can charge commercial capacitors up to 3.83 V. Finally, the proof of concept demonstrated that the humidity power generation sensor can be well applied in human respiratory monitoring, finger non-contact switch, and power supply for light emitting diode (LED).",
+        "link": "https://doi.org/10.1016/j.carbpol.2023.121649",
+        "image": "./src/imgs/papers/huangliang-2.png",
+        "tags": [
+            {"text": "Zinc-air battery", "color": "tag-pink"},
+            {"text": "Humidity power generator", "color": "tag-blue"},
+            {"text": "Cellulose paper-based sensor", "color": "tag-green"},
+            {"text": "Respiratory monitoring", "color": "tag-purple"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper6",
+        "title": "Multifunctional sensors made with conductive microframework and biomass hydrogel for detecting packaging pressure and food freshness.",
+        "authors": "Wei Liu, Jie Chen, Hong Ye, Che Su, Zhenzhen Wu, Liang Huang, Lizhen Zhou, Xuan Wei*, Jie Pang*, and Shuyi Wu*",
+        "journal": "ACS Applied Materials & Interfaces, 2024",
+        "abstract": "Food packaging detection devices have attracted attention to optimize storage situations and reduce food spoilage. However, low-cost and highly sensitive multifunctional sensors for detecting both food freshness and packaging pressure are still lacking. In this study, a multifunctional sensor was developed consisting of a MXene coated alcohol-soluble polyurethane fiber network (MXene/APU) and composite biohydrogel films made of konjac glucomannan, chitosan, and blueberry anthocyanin (KCB). Based on the pressure sensitivity of MXene/APU and the color changes of KCB in response to pH values, the sensor can detect internal package bulging, external squeezing, and food deterioration. The pressure sensor shows a sensitivity of 1.16 kPa–1, a response time of 200 ms, a wide strain range of 1092%, and stability over multiple loops. The pressure sensor could detect human motion and identify surface morphologies. The excellent sensor performance was attributed to the porous structure and large specific surface area of microfiber networks, conductivity of MXene nanosheets, and protective effect of KCB films coated on the conductive membrane. Besides, the microfluidic blow-spinning method used to prepare microfiber networks showed the advantages of low energy consumption and high production efficiency. Based on the color changes of blueberry anthocyanin loaded in KCB films in response to pH, the sensor realized sensitive spoilage detection of food containing protein. This study provides a new multifunctional food packaging sensing device and a greater understanding of the optimization and application of related devices.",
+        "link": "https://doi.org/10.1021/acsami.3c19392",
+        "image": "./src/imgs/papers/LiuWei.png",
+        "tags": [
+            {"text": "multifunctional sensor", "color": "tag-pink"},
+            {"text": "konjac glucomannan", "color": "tag-blue"},
+            {"text": "MXene", "color": "tag-green"},
+            {"text": "flexible sensor", "color": "tag-purple"},
+            {"text": "food freshness", "color": "tag-blue-dark"},
+            {"text": "SCI中科院二区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper7",
+        "title": "Phenotypic characteristics of the mycelium of Pleurotus geesteranus using image recognition technology",
+        "authors": "Xingyi Wang, Ya Xu, Xuan Wei*",
+        "journal": "Frontiers in Bioengineering and Biotechnology, 2024",
+        "abstract": "Phenotypic analysis has significant potential for aiding breeding efforts. However, there is a notable lack of studies utilizing phenotypic analysis in the field of edible fungi. Pleurotus geesteranus is a lucrative edible fungus with significant market demand and substantial industrial output, and early-stage phenotypic analysis of Pleurotus geesteranus is imperative during its breeding process. This study utilizes image recognition technology to investigate the phenotypic features of the mycelium of P. geesteranus. We aim to establish the relations between these phenotypic characteristics and mycelial quality. Four groups of mycelia, namely, the non-degraded and degraded mycelium and the 5th and 14th subcultures, are used as image sources. Two categories of phenotypic metrics, outline and texture, are quantitatively calculated and analyzed. In the outline features of the mycelium, five indexes, namely, mycelial perimeter, radius, area, growth rate, and change speed, are proposed to demonstrate mycelial growth. In the texture features of the mycelium, five indexes, namely, mycelial coverage, roundness, groove depth, density, and density change, are studied to analyze the phenotypic characteristics of the mycelium. Moreover, we also compared the cellulase and laccase activities of the mycelium and found that cellulase level was consistent with the phenotypic indices of the mycelium, which further verified the accuracy of digital image processing technology in analyzing the phenotypic characteristics of the mycelium. The results indicate that there are significant differences in these 10 phenotypic characteristic indices (P<0.001), elucidating a close relationship between phenotypic characteristics and mycelial quality. This conclusion facilitates rapid and accurate strain selection in the early breeding stage of P. geesteranus.",
+        "link": "https://doi.org/10.3389/fbioe.2024.1338276",
+        "image": "./src/imgs/papers/WangXingYi.png",
+        "tags": [
+            {"text": "image recognition", "color": "tag-pink"},
+            {"text": "mycelial quality", "color": "tag-blue"},
+            {"text": "outline", "color": "tag-green"},
+            {"text": "phenotypic characteristics", "color": "tag-purple"},
+            {"text": "Pleurotus geesteranus", "color": "tag-blue-dark"},
+            {"text": "texture feature", "color": "tag-orange"},
+            {"text": "中科院三区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper8",
+        "title": "Machine learning-enhanced triboelectric sensing application",
+        "authors": "Ruzhi Shang; Huamin Chen*; Xu Cai; Xin Shi; Yanhui Yang; Xuan Wei*; Jun Wang*; and Yun Xu",
+        "journal": "Advanced Materials Technologies, 2024",
+        "abstract": "Triboelectric nanogenerator (TENG) has become a promising candidate for wearable energy harvesting and self-powered sensing systems. However, processing large amounts of data imposes a computing power barrier for practical application. Machine learning-assisted self-powered sensors based on TENG have been widely used in data-driven applications due to their excellent characteristics such as no additional power supply, high sensing accuracy, low cost, and good biocompatibility. This work comprehensively reviews the latest progress in machine learning (ML)-assisted TENG-based sensors. The future challenges and opportunities are discussed. First, the fundamental principles including the working mode of ML-assisted TENG-based sensor and common algorithms are systematically and comprehensively illustrated, which emphasizes the algorithm definition and principle. Subsequently, the progress of ML methods in the field of TENG-based sensors is further reviewed, summarizing the advantages and disadvantages of various algorithms in practical examples, and providing guidance and suggestions on how to choose the appropriate methods. Finally, the prospects and challenges of ML-assisted TENG-based sensors is summarized. Directions and important insights for the future development of TENG and AI integration is provided.",
+        "link": "https://doi.org/10.1002/admt.202301316",
+        "image": "./src/imgs/papers/ShangRuzhi.png",
+        "tags": [
+            {"text": "Triboelectric nanogenerator", "color": "tag-pink"},
+            {"text": "machine learning", "color": "tag-blue"},
+            {"text": "AI", "color": "tag-green"},
+            {"text": "中科院三区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper9",
+        "title": "Nondestructive detection of Pleurotus Geesteranus strain degradation based on micro-hyperspectral imaging and machine learnin",
+        "authors": "Xuan Wei; Shiyang Liu; Chuangyuan Xie; Wei Fang; Chanjuan Deng; Zhiqiang Wen; Dapeng Ye; Dengfei Jie*",
+        "journal": "Frontiers in Plant Science, 2023",
+        "abstract": "In the production of edible fungi, the use of degraded strains in cultivation incurs significant economic losses. Based on micro-hyperspectral imaging and machine learning, this study proposes an early, nondestructive method for detecting different degradation degrees of Pleurotus geesteranus strains. In this study, an undegraded strain and three different degradation-level strains were used. During the mycelium growth, 600 micro-hyperspectral images were obtained. Based on the average transmittance spectra of the region of interest (ROI) in the range of 400-1000 nm and images at feature bands, feature spectra and images were extracted using the successive projections algorithm (SPA) and the deep residual network (ResNet50), respectively. Different feature input combinations were utilized to establish support vector machine (SVM) classification models. Based on the results, the spectra-input-based model performed better than the image-input-based model, and feature extraction improved the classification results for both models. The feature-fusion-based SPA+ResNet50-SVM model was the best; the accuracy rate of the test set was up to 90.8%, which was better than the accuracy rates of SPA-SVM (83.3%) and ResNet50-SVM (80.8%). This study proposes a nondestructive method to detect the degradation of Pleurotus geesteranus strains, which could further inspire new methods for the phenotypic identification of edible fungi.",
+        "link": "https://doi.org/10.3389/fpls.2023.1260625",
+        "image": "./src/imgs/papers/LiuShiYang.png",
+        "tags": [
+            {"text": "edible fungi", "color": "tag-pink"},
+            {"text": "micro-hyperspectral imaging", "color": "tag-blue"},
+            {"text": "phenotype", "color": "tag-green"},
+            {"text": "strain degradation", "color": "tag-purple"},
+            {"text": "classification", "color": "tag-blue-dark"},
+            {"text": "SCI中科院二区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper10",
+        "title": "Recent progress and applications of cellulose and its derivatives-based humidity sensors: a review",
+        "authors": "Liang Huang;Qichang Hu; Sheng Gao; Wei Liu; Xuan Wei*",
+        "journal": "Carbohydrate Polymers, 2023",
+        "abstract": "Cellulose and its derivatives, which are low-cost, degradable, reproducible and highly hydrophilic, can serve as both substrate and humidity sensitive materials, making them more and more popular as ideal biomimetic materials for humidity sensors. Benefiting from these characteristics, cellulose-based humidity sensors cannot only exhibit high sensitivity, excellent mechanical performance, wide humidity response range, etc., but also can be applied to fields such as human health, medical care and agricultural product safety monitoring. Herein, cellulose-based humidity sensors are first classified according to the different conductive active materials, such as carbon nanotubes, graphene, electrolytes, metal compounds, and polymer materials, based on which the latest research progress is introduced, and the roles of different types of conductive materials in cellulose-based humidity sensors are analyzed and summarized. Besides, the similarities and differences in their working mechanisms are expounded. Finally, the application scenarios of cellulose-based humidity sensors in human movement respiration and skin surface humidity monitoring are discussed, which can make readers quickly familiarize the current preparation method, working mechanism and subsequent development trend of cellulose-based humidity sensors more effectively.",
+        "link": "https://doi.org/10.1016/j.carbpol.2023.121139",
+        "image": "./src/imgs/papers/HuangLiang-paper10.png",
+        "tags": [
+            {"text": "Biomass cellulose", "color": "tag-pink"},
+            {"text": "Humidity sensor", "color": "tag-blue"},
+            {"text": "Active material", "color": "tag-green"},
+            {"text": "Working mechanism", "color": "tag-purple"},
+            {"text": "Human health monitoring", "color": "tag-blue-dark"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper11",
+        "title": "Hyper spectral imaging-based detection of soluble solids content of loquat from a small sample",
+        "authors": "Siy i Li ; Qiming Song; Yongjie Liu; Taiheng Zeng; Shiyang Liu; Dengfei Jie ; Xuan Wei*",
+        "journal": "Postharvest Biology and Technology, 2023",
+        "abstract": "The flavor and market value of loquats are substantially affected by their soluble solids content (SSC). This study explored the ability of hyperspectral imaging combined with multiple regression models to detect SSC of loquats using small sample size. In this study, one hundred and fifteen loquats were collected as samples, and regions of interest in the hyperspectral images of the samples were extracted. The spectral data processed through direct orthogonal signal correction (DOSC), the best among the five processing methods examined, was selected for the feature spectrum process. Successive projection algorithm (SPA), competitive adaptive reweighted sampling (CARS), improved uninformative variable elimination algorithm (imUVE), and imUVE-SPA algorithms were used to extract feature spectra and establish partial least squares regression (PLSR), support vector machine regression (SVR), back-propagation neural network (BPNN), and customized convolutional neural network (CNN) models, respectively. The results demonstrated that the CNN model based on the 18 feature spectra extracted by CARS was the best (correlation coefficient of validation = 0.904, root mean square error of validation = 0.336 %, and residual predictive deviation = 2.339). Consequently, hyperspectral images with small sample size combined with appropriate regression models can be used for nondestructive detection of loquat brix. Furthermore, the wavelength feature extraction algorithm effectively improves the performance of CNN models with small sample sizes. This study can serve as a valuable reference for the nondestructive detection of fruit brix in other limited sample situations.",
+        "link": "https://doi.org/10.1016/j.postharvbio.2023.112454",
+        "image": "./src/imgs/papers/LiSiYi-paper11.png",
+        "tags": [
+            {"text": "Loquat", "color": "tag-pink"},
+            {"text": "Hyperspectral imaging", "color": "tag-blue"},
+            {"text": "Convolutional neural network", "color": "tag-green"},
+            {"text": "Nondestructive detection", "color": "tag-purple"},
+            {"text": "Small sample", "color": "tag-blue-dark"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper12",
+        "title": "Fast determination of amylose content in lotus seeds based on hyperspectral imaging",
+        "authors": "Xuan Wei ; Liang Huang; Siy i Li ; Sheng Gao; Dengfei Jie ; Zebin Guo; Baodong Zheng*",
+        "journal": "Agronomy, 2023",
+        "abstract": "Different varieties of fresh lotus seeds have varying levels of amylose content. It has a direct impact on the following processing and final product quality, so the non-destructive detection of amylose content is meaningful before lotus seed production. This study proposed a non-destructive method to detect the amylose content of fresh lotus seeds. Hyperspectral images of 120 fresh lotus seeds of three different varieties were obtained, and different pretreatments were applied to the average spectra obtained from the region of interest (ROI). The calibration and prediction set were divided by the sample set joint x–y distances algorithm (SPXY). Then, the partial lease square regression (PLSR) method was established for modeling, with Savitzky–Golay pretreatment-based PLSR showing the best results. To further improve the stability of the predictive model, different methods of feature variables selection were compared. The results showed that the best PLSR model was established with the inputs of 15 feature bands selected from 472 bands by the successive projection algorithm (SPA). The correlation coefficient of the prediction set (Rp), root mean square error of the prediction set (RMSEP), and residual predictive deviation (RPD) were 0.890, 15.154 mg g−1, and 2.193, respectively. Meanwhile, this study visualized the amylose content distribution maps from which it could estimate the content level directly. This study could provide a reference for further development of portable detection equipment for the amylose content of fresh lotus seeds.",
+        "link": "https://doi.org/10.3390/agronomy13082104",
+        "image": "./src/imgs/papers/WeiXuan-paper12.png",
+        "tags": [
+            {"text": "lotus seed", "color": "tag-pink"},
+            {"text": "Hyperspectral imaging", "color": "tag-blue"},
+            {"text": "amylose", "color": "tag-green"},
+            {"text": "SCI中科院二区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper13",
+        "title": "Lightweight tomato real-time detection method based on improved YOLO and mobile deployment",
+        "authors": "Taiheng Zeng; Siyi Li; Qiming Song; Fenglin Zhong; Xuan Wei*",
+        "journal": "Computers and Electronics in Agriculture, 2023",
+        "abstract": "The current deep-learning-based tomato target detection algorithm has many parameters; it has drawbacks of large computation, long time consumption, and reliance on high-computing-power devices such as graphics processing units (GPU). In this study, we propose a lightweight improved YOLOv5 (You Only Look Once) based algorithm to achieve real-time localization and ripeness detection of tomato fruits. Initially, this algorithm used a down-sampling convolutional layer instead of the original focus layer, reconstructing the backbone network of YOLOv5 using the bneck module of MobileNetV3. Then, it performs channel pruning for the neck layer to further reduce the model size and uses a genetic algorithm for hyperparameter optimization to improve detection accuracy. We evaluate the improved algorithm using a homemade tomato dataset. The experimental results demonstrated that the improved model number of parameters and floating point operations per second (FLOPs) were compressed by 78% and 84.15% compared to the original YOLOv5s, while the mAP reached 0.969. Meanwhile, the detection speed on the central processing unit (CPU) platform was 42.5 ms, which was 64.88% better. This study further utilized the Nihui convolutional neural network (NCNN) framework to quantize the improved model and developed an Android-based real-time tomato monitoring application (app). Experimental results demonstrated that the 16-bit quantized model achieved an average detection frame rate of 26.5 frames per second (fps) on the mobile side with lower arithmetic power, which was 268% better than the original YOLOv5s, and the model size was reduced by 51.1% while achieving a 93% true detection rate.",
+        "link": "https://doi.org/10.1016/j.compag.2023.107625",
+        "image": "./src/imgs/papers/ZengTaiHeng-paper13.png",
+        "tags": [
+            {"text": "YOLO", "color": "tag-pink"},
+            {"text": "MobileNetV3", "color": "tag-blue"},
+            {"text": "Tomato detection", "color": "tag-green"},
+            {"text": "Model pruning", "color": "tag-purple"},
+            {"text": "Model Quantification", "color": "tag-blue-dark"},
+            {"text": "SCI中科院一区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper14",
+        "title": "Study on the mechanical properties and the way of breaking the shell of fresh Camellia Oleifera fruit",
+        "authors": "Xuan Wei; Xuanqi Chen; Peng Liao; Wencheng Huang*",
+        "journal": "Horticulturae, 2023",
+        "abstract": "In this study, based on the physical and mechanical parameters of Camellia oleifera, the mechanical model of Camellia oleifera was rebuilt and analysed to reveal the damage mechanism of fruit shell breakage. The results revealed that under the same conditions (e.g., axial loading form), the stress of the fruit uniformly diffused from the extrusion point to the periphery and depth, and the maximum equivalent stress was 9.4104 Mpa. While under radial loading, the stress of the fruit extended axially along the dorsal line of the tea seed, and the maximum equivalent stress was 6.9467 Mpa. The maximum stress under the two loading modes occurred at the joint between the middle column of the shell and the calyx. The increased loading displacement decreased the stress on the fruit, making it easier to break the shell of Camellia oleifera by radial extrusion. The results can serve as a reference for the development of different equipment to break the shell of the Camellia oleifera fruit.",
+        "link": "https://doi.org/10.3390/horticulturae9020236",
+        "image": "./src/imgs/papers/WeiXuan-paper14.png",
+        "tags": [
+            {"text": "Camellia oleifera fresh fruit", "color": "tag-pink"},
+            {"text": "finite element method", "color": "tag-blue"},
+            {"text": "stress and strain", "color": "tag-green"},
+            {"text": "shell-breaking rate", "color": "tag-purple"},
+            {"text": "tea seed damage", "color": "tag-blue-dark"},
+            {"text": "SCI中科院三区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper15",
+        "title": "Modeling of CSTR flow field for Agaricus Bisporus residue fermentation based on CFD numerical simulation",
+        "authors": "Jiayu Li;Iinping Zou; Xuan Wei*",
+        "journal": "Environmental Science and Pollution Research, 2022",
+        "abstract": "Agaricus bisporus production gets a lot of residues, which could be fermented by a continuous stirred tank reactor (CSTR). This research was conducted to study the characteristics of the multiphase flow field in the reactor and its influence on the efficiency of biogas production in the CSTR fermentation process of Agaricus bisporus residue by using CFD numerical simulation technique. The aim is to reveal the relationship between the reactor operating conditions, flow field characteristics, and biogas production efficiency at the micro-level. We compared the results of different turbulence models by evaluating the power quotients and flow quotients with the experimental results to derive the most suitable flow field model inside the reactor for the Agaricus bisporus residues. The results showed that, under the condition that the number of grids does not affect the simulation results, and considering the model accuracy and efficiency, the numerical method can be chosen as the multiple reference frame (MRF) method of the second-order upwind discrete scheme with the realizable k − ε model. In this way, we can make use of edible mushroom residue as a substrate for resource utilization and provide basic data and theoretical basis for the design and scale-up with anaerobic fermentation to biogas reactor.",
+        "link": "https://doi.org/10.1007/s11356-022-23388-9",
+        "image": "./src/imgs/papers/LiJiaYu-paper15.png",
+        "tags": [
+            {"text": "Biogas", "color": "tag-pink"},
+            {"text": "Computational fluid dynamics (CFD)", "color": "tag-blue"},
+            {"text": "Continuous stirred tank reactor (CSTR)", "color": "tag-green"},
+            {"text": "Agaricus bisporus residue", "color": "tag-purple"},
+            {"text": "Flow field", "color": "tag-blue-dark"},
+            {"text": "SCI中科院三区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper16",
+        "title": "基于优化SVM和BP神经网络检测双孢蘑菇早期病害",
+        "authors": "黄亮, 魏萱*, 陈子涵, 温志强",
+        "journal": "福建农林大学学报(自然科学版), 2022",
+        "abstract": "利用反向传播（back propagation, BP）神经网络及支持向量机（support vector machine, SVM）优化模型等算法实现了双孢蘑菇多酚氧化酶（polyphenol oxidase, PPO）的检测与双孢蘑菇的病害判别.首先各采集200个健康、染病双孢蘑菇在全波段（450～1 000 nm）上的高光谱数据及其PPO值.采用竞争自适应加权算法（competitive adaptive reweighted sampling, CARS）和连续投影算法（successive projections algorithm, SPA）提取对PPO值敏感的特征波段，并建立偏最小二乘回归（partial least squares regression, PLSR）预测模型.结果表明SPA-PLSR模型（RP=0.917）的预测精度最高.其次采用逐步回归法对SPA提取的特征波长逐步引入与疣孢霉病相关的特征信息，再利用相关性分析探究所引入的特征信息与染病情况的相关性，最终优选出12个特征波长.对比了极限学习机（extreme learning machine, ELM）、SVM、粒子群优化后的支持向量机（particle swarm optimization-SVM,PSO-SVM）和BP神经网络4种模型对双孢蘑菇染病判别的结果，其中隐含层神经元节点数为14的BP神经网络模型建模效果最好，预测集总体判别率为94.737%.本研究建立的判别模型能够有效判别双孢蘑菇早期疣孢霉病. ",
+        "link": "10.13323/j.cnki.j.fafu(nat.sci.).2022.06.020",
+        "image": "./src/imgs/papers/HuangLiang-paper16.png",
+        "tags": [
+            {"text": "双孢蘑菇", "color": "tag-pink"},
+            {"text": "BP神经网络", "color": "tag-blue"},
+            {"text": "高光谱成像技术", "color": "tag-green"},
+            {"text": "逐步回归", "color": "tag-purple"},
+            {"text": "PSO算法", "color": "tag-blue-dark"},
+            {"text": "CSCD", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper17",
+        "title": "银耳和双孢蘑菇菌渣厌氧发酵的产气效果",
+        "authors": "李佳育, 刘诗洋, 李国建, 邹金平, 魏萱*",
+        "journal": "福建农林大学学报(自然科学版), 2022",
+        "abstract": "通过正交试验设计，考察不同发酵温度(30、40和50℃)、不同接种物含量(25%、50%和75%)条件下两种食用菌菌渣的产气效果.结果发现：两种食用菌菌渣中主要营养物质成分含量较高，可作为厌氧发酵原料，且双孢蘑菇菌渣产气潜能大于银耳菌渣；两种菌渣的反应体系内pH值始终为6.5～7.6,反应能够正常进行；食用菌菌渣种类和接种物含量对甲烷含量的影响极显著，发酵温度对甲烷含量的影响显著；日产气量随发酵温度的升高而增加，随接种物含量的升高而增加；以双孢蘑菇菌渣为原料，在发酵温度50℃、接种物含量50%的发酵工况下，产气效果最佳，可作为后期发酵罐流场分析的初始条件.",
+        "link": "10.13323/j.cnki.j.fafu(nat.sci.).2022.04.015",
+        "image": "./src/imgs/papers/LiJiaYu-paper17.png",
+        "tags": [
+            {"text": "食用菌菌渣", "color": "tag-pink"},
+            {"text": "厌氧发酵", "color": "tag-blue"},
+            {"text": "甲烷含量", "color": "tag-green"},
+            {"text": "发酵工况", "color": "tag-purple"},
+            {"text": "CSCD", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper18",
+        "title": "基于高光谱成像技术的双孢蘑菇病害早期诊断",
+        "authors": "陈子涵; 黄亮; 温志强; 温蝶; 王胜楠; 廖小玲; 魏萱*",
+        "journal": "福建农业学报, 2021",
+        "abstract": "有害疣孢霉菌(Mycogone perniciosa)引起的双孢蘑菇疣孢霉病,是破坏性极强的真菌类病害,本研究拟基于高光谱成像技术,建立双孢蘑菇疣孢霉病早期快速检测方法。【方法】对200个健康双孢蘑菇样本与200个染病双孢蘑菇样本采集全波段(401～1046 nm)可见/近红外高光谱图像信息,利用Savitzky-Golay卷积一阶求导、Savitzky-Golay卷积平滑(SG平滑)、多元散射校正(MSC)分别对360个波段(全波段)的高光谱图像信息进行预处理后,对比随机森林(Random forest, RF)、支持向量机(Support vector machine, SVM)和极限学习机(Extreme learning machine,ELM)3种模型对健康和染病双孢蘑菇鉴别准确度进行分析。【结果】3种鉴别模型的结果接近,其中,MSC-SVM模型检测效果最优,将原始测试集和预测集总体样本鉴别准确度分别由85.02%和87.38%提升至92.21%和91.04%。【结论】本研究建立的MSC-SVM模型可以有效提高基于全波段的双孢蘑菇疣孢霉病早期的鉴别准确度,同时,为进一步开发双孢蘑菇病害早期的快速无损鉴别设备提供了理论依据和方法。",
+        "link": "10.19303/j.issn.1008-0384.2021.11.015",
+        "image": "./src/imgs/papers/ChenZiHan-paper18.png",
+        "tags": [
+            {"text": "双孢蘑菇", "color": "tag-pink"},
+            {"text": "高光谱成像技术", "color": "tag-blue"},
+            {"text": "病害早期检测", "color": "tag-green"},
+            {"text": "CSCD", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper19",
+        "title": "Research on citrus grandis granulation determination based on hyperspectral imaging through deep Learning",
+        "authors": "Dengfei Jie; Shuang Wu;Ping Wang; Yan Li; Dapeng Ye;Xuan Wei*",
+        "journal": "Food Analytical Methods, 2021",
+        "abstract": "Citrus fruit granulation is a major physical disorder during late maturity and post-harvest storage, and it greatly undermines the quality of fruit. Currently, there is still a lack of rapid and nondestructive methods to detect citrus granulation. This study proposes a nondestructive granulation detecting method based on deep learning. Different models were established with the input of preprocessed transmission spectra obtained by hyperspectral imaging. Conventional convolution neural network (CNN) got the best accuracy at 88.02% for training, compared with the least-square support vector machine (LS-SVM) and back-propagation neural network (BP-NN). After adding the batch-normalization layer to the CNN, the experimental results show that the detection model obtained a 100% accuracy in train set and 97.9% in validation set, respectively. And then, through analyzing the well-trained model layer by layer, bands of 660.2–721.1 nm, 708.5–750 nm and 806.5–847 nm were the spectra greatly related to granulation. The model rebuilt with these feature bands obtained 90.1% and 85.4% accuracy in train set and validation set, respectively. This way, effective wavelength selection can find bands highly correlated with granulation.Combined with some research on functional group, it is possible that inference to internal matter changes in granulation process, which may provide some hints to explore the reason of granulation. It is also meaningful to develop granulation-detecting equipment for citrus fruits.",
+        "link": "https://doi.org/10.1007/s12161-020-01873-6",
+        "image": "./src/imgs/papers/JieDengFei-paper19.png",
+        "tags": [
+            {"text": "Convolution neural network", "color": "tag-pink"},
+            {"text": "Spectrum analyze", "color": "tag-blue"},
+            {"text": "Batch normalization", "color": "tag-green"},
+            {"text": "Granulation", "color": "tag-purple"},
+            {"text": "Citrus grandis", "color": "tag-blue-dark"},
+            {"text": "Internal quality", "color": "tag-orange"}
+        ]
+    },
+    {
+        "id": "paper20",
+        "title": "“双一流”与“新工科”建设背景下的地方农林高校农业工程类研究生培养模式的探索与思考",
+        "authors": "魏萱, 介邓飞, 叶大鹏*",
+        "journal": "高等农业教育, 2020",
+        "abstract": "双一流建设和新工科建设是国家为了推动高等教育改革发展提出的重大战略决策,核心是培养各类创新人才。地方农林高校的重要职能之一是为地方农林领域经济社会发展服务,在'双一流'建设和'新工科'建设背景下的研究生培养模式制定还有诸多问题需要探索和思考。以福建农林大学农业工程类研究生培养为例,针对目前此类研究生培养存在的培养目标、培养途径及培养质量评价等主要问题提出当前形势下培养模式改善途径,旨在为地方和区域培养优秀农业工程领域专业人才以及促进福建省农业工程学科长足发展提供思路,同时也为全国地方农林高校农业工程学科的研究生培养模式探究提供一定参考。",
+        "link": "10.13839/j.cnki.hae.2020.1.021",
+        "image": "./src/imgs/papers/WeiXuan-paper20.png",
+        "tags": [
+            {"text": "农业工程", "color": "tag-pink"},
+            {"text": "研究生培养模式", "color": "tag-blue"},
+            {"text": "“双一流”建设", "color": "tag-green"},
+            {"text": "“新工科”建设", "color": "tag-purple"},
+            {"text": "地方农林高校", "color": "tag-blue-dark"}
+        ]
+    },
+    {
+        "id": "paper21",
+        "title": "Modeling for SSC and firmness detection of persimmon based on NIR hyperspectral imaging by sample partitioning and variables selection",
+        "authors": "Xuan Wei; Jincheng He; Shuhe Zheng; Dapeng Ye*",
+        "journal": "Infrared Physics & Technology, 2020",
+        "abstract": "Nondestructive detecting for persimmon’s internal quality is meaningful for post-harvest processing. This study focused on the modeling of soluble solid content (SSC) and firmness (FM) determination of persimmon with near-infrared (NIR) hyperspectral imaging within 900–1700 nm. Sample partitioning and variables selecting were used to optimize the partial least squares (PLS) regression detective models. Three sample partitioning methods included Kennard-stone (KS) algorithm, sample set partitioning joint x-y distances algorithm (SPXY) and random selection (RS) methods were adopted. Monte Carlo uninformative variables elimination (MC-UVE), competitive adaptive reweight sampling method (CARS) and successive projection algorithm (SPA) were applied for feature variables selection. For SSC and FM detecting, the best models were SPXY-MC-UVE-CARS-PLS model with 12 feature variables and Savitzky-Golay-RS-CARS-PLS with 7 feature variables respectively. The 12 and 7 feature variables are grouped together to build PLS models for SSC and FM determination and after the evaluation the regression coefficient of each variables, finally 10 and 9 selected wavelengths were selected to SSC and FM detection respectively. The final models obtained coefficient of determination (of 0.757, root mean standard error of prediction (RMSEP) of 1.404 OBrix and of 0.876, RMSEP of 0.395 kg/cm2 for SSC and FM detection respectively. Meanwhile, we obtained the SSC and FM distribution maps which could give help to visual detection. The results in this study could provide reference for the development of online classification equipment with multi-indicators detection for persimmon.",
+        "link": "https://doi.org/10.1016/j.infrared.2019.103099",
+        "image": "./src/imgs/papers/WeiXuan-paper21.png",
+        "tags": [
+            {"text": "NIR spectroscopy", "color": "tag-pink"},
+            {"text": "Hyperspectral", "color": "tag-blue"},
+            {"text": "Modeling", "color": "tag-green"},
+            {"text": "Sample partition", "color": "tag-purple"},
+            {"text": "Variables selection", "color": "tag-blue-dark"},
+            {"text": "Internal quality", "color": "tag-orange"},
+            {"text": "SCI中科院二区", "color": "tag-red"}
+        ]
+    },
+    {
+        "id": "paper22",
+        "title": "Nondestructive detection of maturity of watermelon by spectral characteristic using NIR diffuse transmittance technique",
+        "authors": "Dengfei Jie; Wanhuai Zhou; Xuan Wei*",
+        "journal": "Scientia Horticulturae, 2019",
+        "abstract": "This study demonstrated a spectral characteristic analysis method used in the maturity detection of watermelon, which was based on the visible and near-infrared spectroscopy (Vis/NIR) technology. We found that with the gradually physiological maturity of watermelon, for the diffuse transmittance spectra, the intensity of peak1 (around 720–740 nm) decreased and peak2 (around 802–805 nm) increased, and the intensity of peak1 was always higher than peak2 for immature watermelon, on the contrary, the intensity of peak1 was always lower than peak2 for mature watermelon. We proposed two spectral characteristic analysis methods that one was using the ratio of the intensity between peak1 and peak2 (RPP), the other one was using normalized difference intensity of peak (NDIP) to determine maturity stage (immature, mid-mature, mature and over-mature). And a correction factor based on the boundary value is used in RPP and NDIP to improve the classification ability. The discriminate performances of these two methods were compared through the performance of least-squares support vector machines (LS-SVM). The result indicated the Corrected-RPP (C-RPP) method showed the best predictive ability with 88.1% of correct classification rate. This is a new finding that the maturation of watermelon can be tested directly from the spectra. It has a great potential to be developed to study other fruits and be applied in portable instrument and on-line high-speed watermelons internal quality detection system based on spectroscopy database.",
+        "link": "https://doi.org/10.1016/j.scienta.2019.108718",
+        "image": "./src/imgs/papers/JieDengFei-paper22.png",
+        "tags": [
+            {"text": "Watermelon", "color": "tag-pink"},
+            {"text": "Diffuse transmittance", "color": "tag-blue"},
+            {"text": "Spectral characteristic", "color": "tag-green"},
+            {"text": "Maturity", "color": "tag-purple"},
+            {"text": "Near-infrared spectroscopy", "color": "tag-blue-dark"}
+        ]
+    }
+]

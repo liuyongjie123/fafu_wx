@@ -1,0 +1,114 @@
+{
+  "title": "农业微纳传感与智能感知技术团队",
+  "introduction": {
+    "subtitle": "团队介绍",
+    "content": "农业微纳传感与智能感知技术团队致力于推动农业智能化发展，负责人为魏萱老师，团队成员来自于不同的领域，包括传感器、智能算法、物联网等，团队研究方向包括：农业装备智能化、农业传感器创新与制作、人工智能辅助农业生产等。团队的目标是通过微纳传感技术和智能感知算法，实现农业的智能化管理和优化。团队目前共有X人，其中导师X人，博士X人，硕士X人；团队共发表高质量论文X篇，知识产权X项，国家重大项目X项。欢迎有志之士加入！！"
+  },
+  "carousel": {
+    "photos": [
+      {
+        "src": "./src/imgs/Carousel_images/2023届毕业合照.jpg",
+        "alt": "2023届毕业合照"
+      },
+      {
+        "src": "./src/imgs/Carousel_images/2024届毕业合照.jpg",
+        "alt": "2024届毕业合照"
+      },
+      {
+        "src": "./src/imgs/Carousel_images/2025届毕业生合照.jpg",
+        "alt": "2025届毕业生合照"
+      },
+      {
+        "src": "./src/imgs/Carousel_images/2025届毕业生合照-2.jpg",
+        "alt": "2025届毕业生合照-2"
+      },
+      {
+        "src": "./src/imgs/Carousel_images/2025届礼物.jpg",
+        "alt": "2025届礼物"
+      },
+      {
+        "src": "./src/imgs/Carousel_images/跨年合照-2025.jpeg",
+        "alt": "跨年合照-2025"
+      }
+    ]
+  },
+  "members": [
+    {
+      "id": 1,
+      "name": "张洪",
+      "position": "教授",
+      "description": "宽禁带半导体材料的制备及磁性能研究，农业微生物传感材料与器件",
+      "avatar": "./src/imgs/team/张洪.jpg",
+      "social": {
+        "linkedin": "http://teacher.fafu.edu.cn/jdxy/zh/list.htm",
+        "email": "zhanghong381@fafu.edu.cn"
+      }
+    },
+    {
+      "id": 2,
+      "name": "龙博",
+      "position": "系主任、副教授",
+      "description": "多功能复合材料的设计与合成；高灵敏度生物传感材料与器件；",
+      "avatar": "./src/imgs/team/龙博.png",
+      "social": {
+        "linkedin": "https://jdxy.fafu.edu.cn/8e/df/c10873a298719/page.htm",
+        "email": "longbo2015@fafu.edu.cn"
+      }
+    },
+    {
+      "id": 3,
+      "name": "林睿",
+      "position": "工学博士、讲师",
+      "description": "有机发光与太阳能电池材料与器件，钙钛矿发光与太阳能电池材料与器件",
+      "avatar": "./src/imgs/team/林睿.jpg",
+      "social": {
+        "linkedin": "https://jdxy.fafu.edu.cn/d6/df/c10873a382687/page.htm",
+        "email": "rui.lin@fafu.edu.cn"
+      }
+    },
+    {
+      "id": 4,
+      "name": "瞿芳芳",
+      "position": "工学博士、讲师",
+      "description": "数字农业信息技术，农业信息智能感知与传感检测",
+      "avatar": "./src/imgs/team/瞿芳芳.jpg",
+      "social": {
+        "linkedin": "https://jdxy.fafu.edu.cn/d6/fb/c10873a382715/page.htm",
+        "email": "ffqu@fafu.edu.cn"
+      }
+    },
+    {
+      "id": 5,
+      "name": "尚进",
+      "position": "博士在读",
+      "description": "人工智能，魏萱老师学生",
+      "avatar": "./src/imgs/team/尚进.png",
+      "social": {
+        "linkedin": "#",
+        "email": "#"
+      }
+    },
+    {
+      "id": 6,
+      "name": "周子斌",
+      "position": "博士在读",
+      "description": "人工智能，魏萱老师学生",
+      "avatar": "./src/imgs/team/周子斌.png",
+      "social": {
+        "linkedin": "#",
+        "email": "#"
+      }
+    },
+    {
+      "id": 7,
+      "name": "陈君祥",
+      "position": "硕士在读",
+      "description": "农业工程",
+      "avatar": "./src/imgs/team/陈君祥.png",
+      "social": {
+        "linkedin": "#",
+        "email": "#"
+      }
+    }
+  ]
+}

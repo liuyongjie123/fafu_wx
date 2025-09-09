@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术主页</title>
+    <script src="https://cdn.tailwindcss.com/3.3.3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/profile_loader.js"></script>
+</head>
+<body>
+    <!-- 波浪动画背景 -->
+    <canvas id="waveCanvas" class="wave-container"></canvas>
+    
+    <!-- 粒子背景 -->
+    <canvas id="particlesCanvas" class="particles-container"></canvas>
+    
+    <!-- 导航栏 -->
+    <nav class="fixed top-0 left-0 right-0 z-50 py-4 bg-white shadow-sm">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold gradient-text">个人主页</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link active">个人主页</a>
+                    <a href="#research" class="nav-link">学术成果</a>
+                    <a href="#team" class="nav-link">团队</a>
+                </div>
+                <button class="md:hidden text-gray-700 focus:outline-none" id="mobile-menu-button">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- 移动端菜单 -->
+            <div class="mobile-menu md:hidden bg-white mt-2" id="mobile-menu">
+                <div class="flex flex-col py-2">
+                    <a href="#home" class="px-4 py-2 nav-link active">个人主页</a>
+                    <a href="#research" class="px-4 py-2 nav-link">学术成果</a>
+                    <a href="#team" class="px-4 py-2 nav-link">团队</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- 页面内容 -->
+    <main>
+        <!-- 个人主页 -->
+        <section id="home" class="section container mx-auto px-4 flex items-center">
+            <div class="max-w-4xl mx-auto w-full">
+                <div class="card p-8 mb-8">
+                    <!-- 个人主页内容将通过profile_loader.js动态加载 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- 学术成果 -->
+        <section id="research" class="section container mx-auto px-4 flex items-center">
+            <div class="max-w-4xl mx-auto w-full">
+                <div class="card p-8 mb-8">
+                    <h1 class="text-4xl font-bold mb-6 gradient-text">学术成果</h1>
+                    
+                    <div class="mb-8">
+                        <h2 class="text-2xl font-bold mb-6">发表论文</h2>
+                        <div class="space-y-6">
+                            <div class="research-card card p-6">
+                                <a href="https://dx.doi.org/10.1021/acsnano.4c09916" class="block w-full h-full">
+                                    <div class="paper-container">
+                                        <img src="./src/imgs/papers/ACS_HuangLiang.png" alt="HuangLiang论文图片" class="paper-image">
+                                        <div>
+                                            <h3 class="font-bold text-xl mb-2">Wearable sensor based on covalent organic framework humidity film for long-term monitoring of tomato physiological under abiotic stress</h3>
+                                            <p class="author-info text-sm text-gray-700 mb-2">Liang Huang, Xinyang He, Jimin Hu, Caixun Qin, Chenxin Huang, Yu Tang, Fenglin Zhong, Xiangzeng Kong*, Xuan Wei*</p>
+                                            <p class="text-sm text-gray-600 mb-3"><i class="fas fa-book mr-2"></i> ACS Nano, 2024</p>
+                                            <div class="paper-content">
+                                                Global agricultural productivity is affected by plant stresses every year; as a consequence, monitoring and preventing plant stresses is a significant measure to protect the agro-ecological environment. Similar to the adoption of wearable devices to appraise human physiological information and disease diagnosis, however, in situ nondestructive monitoring of complex and weak physiological information in plants is an enormous challenge for the development of wearable sensors. Herein, to accurately analyze the changes of tomato internal information under multiple abiotic stresses in real-time, we introduce the covalent organic framework (COF) film synthesized by self-assembly layer by layer through the oil/water interface as a sensitive material to develop a multifilm-integrated wearable sensor capable of monitoring leaf surface humidity and leaf temperature. The flexible substrate can stretch with leaf growth to ensure the accuracy of long-term monitoring. Benefiting from the performance characteristics, such as ultrahigh sensitivity (S) of 0.8399 nA/%RH and an extremely low-resolution (ΔRH) value of 0.0564%, which could amplify the conducted signal, and the long-term stability of COFMOP-TAPB, the transpiration information on tomatoes under 10 abiotic stresses can be monitored continuously and with high precision over a long period by applying the COF-based sensor on the lower surface of the leaf at the upper end of the stem morphology. Finally, we employ metaheuristic optimization algorithms to predict the time series of the internal physiological change trend of tomatoes in the future so that farmers can take corresponding preventive measures in time to ensure the healthy growth of tomatoes.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-wrap mt-4">
+                                        <span class="skill-tag tag-pink">plant wearable sensor</span>
+                                        <span class="skill-tag tag-blue">plant physiological information</span>
+                                        <span class="skill-tag tag-green">covalent organic framework</span>
+                                        <span class="skill-tag tag-purple">nonbiological stress</span>
+                                        <span class="skill-tag tag-blue-dark">metaheuristic optimization algorithm</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="ipr">
+                        <h2 class="text-2xl font-bold mb-6">知识产权</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="research-card card p-6">
+                                <h3 class="font-bold text-xl mb-2">发明专利</h3>
+                                <p class="text-sm text-gray-600 mb-2"><i class="fas fa-user mr-2"></i> 魏萱; 汪星一; 刘诗洋</p>
+                                <p class="text-sm text-gray-600 mb-3"><i class="fas fa-calendar mr-2"></i> 2024-08-09</p>
+                                <p class="mb-4 line-clamp-3">一种显微高光谱载物台高度定位控制方法，中国，ZL202211308472.4</p>
+                                <div class="flex flex-wrap">
+                                    <span class="skill-tag tag-blue">第一作者</span>
+                                    <span class="skill-tag tag-green">已授权</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 科研项目 -->
+        <section id="projects" class="section container mx-auto px-4 py-12">
+            <div class="max-w-4xl mx-auto w-full">
+                <div class="card p-8 mb-8">
+                    <h2 class="text-2xl font-bold mb-6 gradient-text">科研项目</h2>
+                    <div id="projects-container"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 团队 -->
+        <section id="team" class="section container mx-auto px-4 flex items-center">
+            <div class="max-w-4xl mx-auto w-full">
+                <div class="card p-8 mb-8"></div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="py-6 text-center text-gray-600 text-sm">
+        <p>created by <a class="text-green-600 hover:text-green-400">Jiemo</a></p>
+    </footer>
+    <script>
+      // 动态加载home.js并添加时间戳防止缓存
+      document.write('<script src="js/home.js?t=' + new Date().getTime() + '"><\/script>');
+    </script>
+    <script src="js/papers_loader.js"></script>
+    <script src="js/ipr_loader.js"></script>
+    <script src="js/projects_loader.js"></script>
+    <script src="js/team_loader.js"></script>
+</body>
+</html>

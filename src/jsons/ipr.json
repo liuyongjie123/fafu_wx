@@ -1,0 +1,101 @@
+[
+    {
+        "id": "ipr1",
+        "title": "发明专利",
+        "authors": "魏萱; 汪星一; 刘诗洋",
+        "date": "2024-08-09",
+        "description": "一种显微高光谱载物台高度定位控制方法，中国，ZL202211308472.4",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "已授权", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "ipr2",
+        "title": "发明专利",
+        "authors": "魏萱; 陈子涵; 魏祖华; 黄新伟; 李哲宇; 叶大鹏",
+        "date": "2024-7-12",
+        "description": "往复式类椭球形果蔬分拣装箱系统，中国，ZL201910119877.5",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "已授权", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "ipr3",
+        "title": "发明专利",
+        "authors": "魏萱; 何金成; 叶大鹏; 郑书河",
+        "date": "2022-4-1",
+        "description": "基于容积式转盘精准投料饲喂装置及其工作方法，中国，ZL 201610813343.9",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "已授权", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "ipr4",
+        "title": "实用新型专利",
+        "authors": "魏萱; 谢创源; 宋启明; 蒋大伟; 刘永杰; 陈炫祺; 郭茂成",
+        "date": "2023-02-01",
+        "description": "一种显微多光谱成像的食用菌菌种表型参数采集装置及方法，中国，CN202310049358.2",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "已授权", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "ipr5",
+        "title": "发明专利",
+        "authors": "魏萱; 刘诗洋; 李思怡",
+        "date": "2022-07-25",
+        "description": "基于显微高光谱图像秀珍菇菌种退化无损检测方法，中国，CN202210875859.1",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "实审", "color": "tag-purple"}
+        ]
+    },
+    {
+        "id": "ipr6",
+        "title": "发明专利",
+        "authors": "魏萱; 曾泰恒",
+        "date": "2022-05-16",
+        "description": "一种基于轻量化改进YOLO的番茄成熟度检测方法，中国，CN202210526772.3",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "实审", "color": "tag-purple"}
+        ]
+    },
+    {
+        "id": "ipr7",
+        "title": "软件著作权",
+        "authors": "魏萱; 李思怡",
+        "date": "2022-10-8",
+        "description": "基于模型拟合优化的诱虫板失效时间预测系统V1.0，2023SR0363645，原始取得，全部权利",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "已授权", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "ipr8",
+        "title": "软件著作权",
+        "authors": "魏萱; 曾泰恒",
+        "date": "2022-4-18",
+        "description": "基于YOLO的番茄实时成熟度检测系统V1.0，2022SR0929103，原始取得，全部权利",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "已授权", "color": "tag-green"}
+        ]
+    },
+    {
+        "id": "ipr9",
+        "title": "软件著作权",
+        "authors": "魏萱; 刘永杰",
+        "date": "2024-05-08",
+        "description": "基于图像算法的杏鲍菇品种特征数据采集软件V1.0，2024SR0611175，原始取得，全部权利",
+        "tags": [
+            {"text": "第一作者", "color": "tag-blue"},
+            {"text": "已授权", "color": "tag-green"}
+        ]
+    }
+]

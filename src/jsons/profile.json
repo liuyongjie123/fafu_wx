@@ -1,0 +1,38 @@
+{
+  "name": "魏萱",
+  "title": "教授、博士生导师、机电工程学院副院长",
+  "birthday": "1987.08",
+  "introduction": "中国农业工程学会青年科技委员会委员、中国农学会农业信息分会委员、《中国农业信息》期刊青年编委、福建省女科协理事、福建省高层次B类人才。",
+  "contact": {
+    "email": "xuanwei@fafu.edu.cn",
+    "phone": "18850701883"
+  },
+  "education": {
+    "degree": "博士学位",
+    "university": "浙江大学"
+  },
+  "research_areas": [
+    {
+      "name": "农业信息感知与智能装备",
+      "tag": "tag-pink"
+    },
+    {
+      "name": "农业人工智能",
+      "tag": "tag-blue"
+    },
+    {
+      "name": "深度学习",
+      "tag": "tag-green"
+    },
+    {
+      "name": "农作物光学成像及表型分析",
+      "tag": "tag-purple"
+    }
+  ],
+  "images": {
+    "profile_zjz": "./src/imgs/home/weixuan-zjz.jpg",
+    "profile": "./src/imgs/home/weixuan.jpg",
+    "university_logo": "./src/imgs/home/logo.png"
+  },
+  "university": "福建农林大学"
+}
