@@ -90,7 +90,7 @@
     },
     {
       "id": 6,
-      "name": "周子斌",
+      "name": "周子滨",
       "position": "博士在读",
       "description": "人工智能，魏萱老师学生",
       "avatar": "./src/imgs/team/周子斌.png",
@@ -105,6 +105,17 @@
       "position": "硕士在读",
       "description": "农业工程",
       "avatar": "./src/imgs/team/陈君祥.png",
+      "social": {
+        "linkedin": "#",
+        "email": "#"
+      }
+    },
+    {
+      "id": 8,
+      "name": "其他",
+      "position": "硕士在读",
+      "description": "我写不完啦，等待添加...",
+      "avatar": "./src/imgs/team/其他.png",
       "social": {
         "linkedin": "#",
         "email": "#"
